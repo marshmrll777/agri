@@ -1,0 +1,16 @@
+.scheme-card-link {
+    text-decoration: none;
+    color: inherit;
+    flex: 1;
+    display: flex;
+}
+
+.scheme-card {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.scheme-card:hover {
+    transform: scale(1.02);
+    border-color: #008000;
+}
